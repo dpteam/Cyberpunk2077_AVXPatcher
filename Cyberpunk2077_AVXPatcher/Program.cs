@@ -21,6 +21,7 @@ namespace Cyberpunk2077_AVXPatcher
 			byte[] targetBytes = StringHexToByteArray("C34881ECA00000000F2970E8");
 			BinaryReplace(cp77exe + ".avx-patcher-bak", sourceBytes, cp77exe, targetBytes);
 			Console.WriteLine("AVX Pattern found and replaced. Cyberpunk 2077 patched successful.");
+			Console.WriteLine("Press Any Key to Exit.");
 			Console.ReadKey();
 		}
 
