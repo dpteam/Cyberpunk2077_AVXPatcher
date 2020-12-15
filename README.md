@@ -12,6 +12,8 @@
 
 <img src="https://img.shields.io/github/issues/dpteam/Cyberpunk2077_AVXPatcher.svg">
 
+<img src="https://img.shields.io/github/downloads/dpteam/Cyberpunk2077_AVXPatcher/total.svg">
+
 </p>
 
 **AVX Instructions Fix Patcher for Cyberpunk 2077 made by _[DartPower](https://github.com/dartpower)_ Team.**
