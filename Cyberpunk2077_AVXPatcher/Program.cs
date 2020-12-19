@@ -12,7 +12,7 @@ namespace Cyberpunk2077_AVXPatcher
 			string cp77exe = "Cyberpunk2077.exe";
 			if (File.Exists(cp77exe + ".avx-patcher-bak"))
 			{
-				Console.WriteLine("Backup found. Already patched?");
+				Console.WriteLine("A backup was found. Already patched?");
 				Console.ReadKey();
 			}
 			File.Copy(assemblyPath + Path.DirectorySeparatorChar + cp77exe, assemblyPath + Path.DirectorySeparatorChar + cp77exe + ".avx-patcher-bak", false);
@@ -20,8 +20,8 @@ namespace Cyberpunk2077_AVXPatcher
 			byte[] sourceBytes = StringHexToByteArray("554881ECA00000000F2970E8");
 			byte[] targetBytes = StringHexToByteArray("C34881ECA00000000F2970E8");
 			BinaryReplace(cp77exe + ".avx-patcher-bak", sourceBytes, cp77exe, targetBytes);
-			Console.WriteLine("AVX Pattern found and replaced. Cyberpunk 2077 patched successful.");
-			Console.WriteLine("Press Any Key to Exit.");
+			Console.WriteLine("AVX Pattern found and replaced. Cyberpunk 2077 patched successfuly.");
+			Console.WriteLine("Press any key to exit.");
 			Console.ReadKey();
 		}
 
