@@ -77,7 +77,7 @@ P.S. You should check if [viewing hidden files and folders is enabled](https://s
 # What's done
 
  - [x] Pattern-based HEX patcher
-   - [ ] Pattern tested (pattern working which community mention, but not tested)
+   - [x] Pattern tested on i7 920 by [SPC](https://vk.com/spc_elite)
  - [ ] GUI and/or progressbar-based things...
 
 # Contributors and Testers
